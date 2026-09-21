@@ -1,0 +1,25 @@
+head -n2000 ./0_0.dat > 0.0.dist
+head -n2000 ./0_2.dat > 0.2.dist
+head -n2000 ./0_4.dat > 0.4.dist
+head -n2000 ./0_5.dat > 0.5.dist
+head -n2000 ./0_6.dat > 0.6.dist
+head -n2000 ./0_8.dat > 0.8.dist
+head -n2000 ./1_0.dat > 1.0.dist
+head -n2000 ./1_2.dat > 1.2.dist
+head -n2000 ./1_4.dat > 1.4.dist
+head -n2000 ./1_6.dat > 1.6.dist
+head -n2000 ./1_8.dat > 1.8.dist         
+head -n2000 ./2_0.dat > 2.0.dist
+head -n2000 ./2_2.dat > 2.2.dist
+head -n2000 ./2_4.dat > 2.4.dist
+head -n2000 ./2_6.dat > 2.6.dist
+head -n2000 ./3_3.dat > 3.3.dist
+head -n2000 ./m0_2.dat > m0.2.dist
+head -n2000 ./m0_4.dat > m0.4.dist
+head -n2000 ./m0_6.dat > m0.6.dist
+head -n2000 ./m0_8.dat > m0.8.dist
+head -n2000 ./m1_0.dat > m1.0.dist
+head -n2000 ./m1_2.dat > m1.2.dist
+head -n2000 ./m1_4.dat > m1.4.dist
+head -n2000 ./m1_6.dat > m1.6.dist
+wham Pval -1.7 3.4 300 0 300  0.000001 ./metadatafile 15-17.dat

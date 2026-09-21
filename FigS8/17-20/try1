@@ -1,0 +1,23 @@
+tail -n3000 ./0.0.dat > 0.0.dist
+tail -n3000 ./0.2.dat > 0.2.dist
+tail -n3000 ./0.4.dat > 0.4.dist
+tail -n3000 ./m0.2.dat > m0.2.dist
+tail -n3000 ./m0.4.dat > m0.4.dist
+tail -n3000 ./m0.6.dat > m0.6.dist
+tail -n3000 ./m0.8.dat > m0.8.dist
+tail -n3000 ./m1.0.dat > m1.0.dist
+tail -n3000 ./m1.2.dat > m1.2.dist
+tail -n3000 ./m1.4.dat > m1.4.dist
+tail -n3000 ./m1.6.dat > m1.6.dist
+tail -n3000 ./m1.8.dat > m1.8.dist         
+tail -n3000 ./m2.0.dat > m2.0.dist
+tail -n3000 ./m2.2.dat > m2.2.dist
+tail -n3000 ./m2.4.dat > m2.4.dist
+tail -n3000 ./m2.6.dat > m2.6.dist
+tail -n3000 ./m2.8.dat > m2.8.dist
+tail -n3000 ./m3.0.dat > m3.0.dist
+tail -n3000 ./m3.2.dat > m3.2.dist
+tail -n3000 ./m3.4.dat > m3.4.dist
+tail -n3000 ./m3.6.dat > m3.6.dist
+tail -n3000 ./m3.8.dat > m3.8.dist
+wham Pval -4.2 0.6 200 0 300  0.000001 ./metadatafile 17-20.dat

@@ -1,0 +1,14 @@
+tail -n5000 ./0.1.dat > 0_1.dist
+tail -n5000 ./0.3.dat > 0_3.dist
+tail -n5000 ./0.5.dat > 0_5.dist
+tail -n5000 ./0.7.dat > 0_7.dist
+tail -n5000 ./0.9.dat > 0_9.dist
+tail -n5000 ./m0.1.dat > m0_1.dist
+tail -n5000 ./m0.3.dat > m0_3.dist
+tail -n5000 ./m0.5.dat > m0_5.dist
+tail -n5000 ./m0.7.dat > m0_7.dist
+tail -n5000 ./m0.9.dat > m0_9.dist
+tail -n5000 ./m1.1.dat > m1_1.dist
+tail -n5000 ./m1.3.dat > m1_3.dist
+tail -n5000 ./m1.5.dat > m1_5.dist
+wham Pval -1.5 0.9 200 0 300  0.000001 ./metadatafile 15-20.dat
